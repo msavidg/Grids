@@ -26,6 +26,10 @@ namespace Grids
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jqgrid").Include(
+                "~/Scripts/jqGrid/jquery.jqGrid.js"));
+
         }
     }
 }
