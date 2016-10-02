@@ -8,6 +8,11 @@ namespace Grids.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult Grids()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
